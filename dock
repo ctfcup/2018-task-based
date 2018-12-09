@@ -1,0 +1,13 @@
+#!/bin/bash
+array=(`ls **/docker-compose.yml`)
+
+for f in "${array[@]}"
+do
+   DIR=$(dirname "${f}")
+   ( cd $DIR && docker-compose -p tasks ${@:1} )
+#  files="${files} -f ${f}"
+  # do something on $var
+done
+
+#echo "docker-compose ${files} ${@:1}"
+#docker-compose ${files} ${@:1}

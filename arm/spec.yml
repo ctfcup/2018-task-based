@@ -1,0 +1,10 @@
+task:
+  deploy_method: attachment
+  category:
+    - arm
+    - pwn
+  description:
+   В вашей сети есть уязвимое устройство. Сможете ли вы победить его?
+  points: 400
+  flag: CupCTF{ArmСhallenge2k18}
+  title: ARM

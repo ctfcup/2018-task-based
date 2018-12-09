@@ -1,0 +1,9 @@
+task:
+  deploy_method: docker
+  category:
+    - forensic
+  description:
+    Ну раз уж ты решил ввязаться в это нелегкое дело расследований... В общем простенькая задачка - один мой друг жалуется, мол у него ощущение, что за ним следят. Посмотри, че там такое, ок?
+  points: 200
+  flag: cupctf{h0w_4b0u7_51mpl3_f0r3n51c_1n_4ndr01d?}
+  title: BadDroid

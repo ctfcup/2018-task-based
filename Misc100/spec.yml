@@ -1,0 +1,10 @@
+task:
+  deploy_method: docker
+  category:
+    - ppc
+    - misc
+  description:
+    Я тут слегка ослеп после не очень качественных посиделок и никак не могу дойти до дома... Не поможешь? tcp.tasks.ctfcup.ru:5009
+  points: 100
+  flag: cupctf{1_50lv3_7h15_m4z3}
+  title: BlindMaze

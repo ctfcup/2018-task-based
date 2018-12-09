@@ -1,0 +1,9 @@
+task:
+  deploy_method: docker
+  category:
+    - pwn
+  description:
+    Кажется, что команды для атаки предавались через специальные файлы, похожие на какой-то низкоуровневый язык программирования. Вы ведь уже получили слепок сервиса авторизации? Исследуйте его! (tcp.tasks.ctfcup:5353)
+  points: 300
+  flag: CupCTF{y0u_g0t_4_sh3ll_c0ngr4tz}
+  title: Login panel - Got a shell

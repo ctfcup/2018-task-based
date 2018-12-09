@@ -1,0 +1,10 @@
+version: '3'
+services:
+  forensic400:
+    restart: always
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - "9003:80"
+

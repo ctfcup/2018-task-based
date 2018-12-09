@@ -1,0 +1,9 @@
+task:
+  deploy_method: docker
+  category:
+    - forensic
+  description:
+     Cтажер, у тебя тут новая задачка на подумать. У нас тут есть один роутер с выделенным каналом - и он стал себя очень странно вести. С меня - дамп прошивки - с тебя инфа, что и куда там, ок?
+  points: 400
+  flag: CupCTF{2cdccd97512c4f3425664ada0a4791e5}
+  title: BadBin

@@ -1,0 +1,9 @@
+task:
+  deploy_method: docker
+  category:
+    - pwn
+  description:
+    Мы обнаружили компьютер, с которого когда-то проводились хакерские атаки. Сейчас атаки притихли, однако что-то с него всё таки отправляется. Посмотри, можно ли как-то получить к нему доступ. Мы предоставим доступ к нему через данный порт (tcp.tasks.ctfcup.ru 5008)
+  points: 100
+  flag: CupCTF{brut3_f0rc3_1s_b0r1ng_but_n3c3ss4ry}
+  title: Login panel - Access

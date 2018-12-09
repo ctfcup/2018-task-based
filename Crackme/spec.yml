@@ -1,0 +1,9 @@
+task:
+  deploy_method: attachment
+  category:
+    - reverse
+  description:
+    Crack me (light). Формат - CupCTF{SeRial-Numb3r-W1tH-MiNuseS}
+  points: 100
+  flag: CupCTF{JQD8u5-H2oNk2-7BikbQ-Gf8uj7-K4LFQT}
+  title: Crack me

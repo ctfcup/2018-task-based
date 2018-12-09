@@ -1,0 +1,10 @@
+version: '3'
+services:
+  forensic200:
+    image: alastairhm/alpine-lighttpd
+    restart: always
+    volumes:
+     - ./app:/var/www
+    ports:
+     - "9001:80"
+

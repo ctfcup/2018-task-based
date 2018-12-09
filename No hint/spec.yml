@@ -1,0 +1,15 @@
+task:
+  deploy_method: attachment
+  category:
+    - crypto
+  description:
+  |
+    $ python3 encrypt.py -i pt.txt -k key.txt -o ct.txt
+    $ head -n 1 key.txt
+    VD LK EM AJ IB GF
+
+    Flag starts with "The flag is". Remember to put it into CupCTF{}.
+  points: 100
+  flag: CupCTF{ENIGMAMTHREECTFCUPTWO}
+  title: No hint
+

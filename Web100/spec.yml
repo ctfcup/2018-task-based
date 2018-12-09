@@ -1,0 +1,13 @@
+
+task:
+  deploy_method: docker
+  category:
+    - web
+  description:
+   Хэй, я тут нашел древнюю форму управления от какого то убежища.
+   Кажется, она показывает анекдоты (?).
+   А еще я знаю что код открытия убежища лежит где то тут же - поможешь найти?
+   http://tcp.tasks.ctfcup.ru:5007
+  points: 100
+  flag: CupCTF{jU57_L0V3_53Rv3R_5id3_73mpl473_iNJ3c7i0n!}
+  title: Anecdotes 

@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Just hack it v.2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello!</h1>
+      <h3>What are you looking for?</h3>
+      <h4> List of anecdotes: </h4>
+      <ul>
+        <li>A Universal Philosophical Refutation.txt</li>
+          <li>Math, Physics, & Philosophy.txt</li>
+          <li>Irish Wife.txt</li>
+          <li>Language Problem.txt</li>
+          <li>Genie In The Lamp.txt</li>
+      </ul>
+      <br>
+      <form action="" method="post">
+        <input type="text" placeholder="FileName" name="FileName" value="{{request.form.FileName}}">
+        <input class="btn btn-default" type="submit" value="View">
+      </form>
+      <br>
+      <h3>
+         {% block content %}
+              {% if template %}
+                {{ template }}
+              {% endif %}
+          {% endblock %}
+         </h3>
+      </br>
+    </div>
+  </body>
+</html>
+

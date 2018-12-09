@@ -1,0 +1,11 @@
+task:
+  deploy_method: none
+  category:
+    - recon
+    - joy
+  description: |
+    Encrypted Message from <noname>: Даже и не думай меня найти, за одной ракетой последуют другие, благодаря твоим действиям во Владивостоке конец, которого вы боялись, близок и кровь будет на ваших руках.
+    Encrypted Message from <system>: Данное сообщение уничтожится чере 3.. 2.. 1..
+  points: 200
+  flag: CupCTF{d3str0y_nucl35r_m1ss1l3}
+  title: Stage 5. Последняя миля.

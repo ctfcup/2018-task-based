@@ -1,0 +1,9 @@
+task:
+  deploy_method: none
+  category:
+    - reverse
+  description:
+    Добро пожаловать, http://ctfcup18.reverseboom.ru. Зарегистрируйтесь и решайте!
+  points: 400
+  flag: CupCTF{6c8c62239217eceb3240bb567e401cc2}
+  title: Remote secret 3

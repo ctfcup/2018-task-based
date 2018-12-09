@@ -1,0 +1,11 @@
+task:
+  deploy_method: none
+  category:
+    - recon
+    - web
+  description: |
+    Encrypted Message from <JohnDoe>: Он бывший физик и инженер в области ядерной энергетики, сейчас работает над новым проектом, это все что мы знаем о нашем связном.
+    Encrypted Message from <system>: Данное сообщение уничтожится чере 3.. 2.. 1..
+  points: 100
+  flag: CupCTF{Nucl34r_3n3rgy_m4n}
+  title: Stage 3. Новый старый связной.

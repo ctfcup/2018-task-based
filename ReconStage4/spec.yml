@@ -1,0 +1,11 @@
+task:
+  deploy_method: none
+  category:
+    - recon
+    - network
+  description: |
+    Encrypted Message from <Luther>: Кажется, он даже и не прятался, ресурс знакомый.
+    Encrypted Message from <system>: Данное сообщение уничтожится чере 3.. 2.. 1..
+  points: 150
+  flag: CupCTF{dns_z0n3_h1dd3n_pl4ce}
+  title: Stage 4. Заметая следы.

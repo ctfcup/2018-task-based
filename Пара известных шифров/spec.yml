@@ -1,0 +1,10 @@
+task:
+  deploy_method: attachment
+  category:
+    - crypto
+  description:
+    Один мой друг любит комбинировать криптографические системы. Вот что получилось у него на этот раз. Сможешь расшифровать? Формат флага CupCTF{secret word}
+  points: 150
+  flag: CupCTF{WOWWOWWOWSOVIGENEREAGAIN}
+  title: Пара известных шифров
+

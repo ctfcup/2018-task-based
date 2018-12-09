@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web150:
+    restart: always
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "5006:80"
+    command: gunicorn -w 1 -b :80 wsgi

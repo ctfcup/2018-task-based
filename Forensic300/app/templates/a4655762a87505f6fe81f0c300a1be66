@@ -1,0 +1,25 @@
+<head>
+</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <title> Admin </title>
+<table class='table'>
+   <tr>
+     <th>Bot</th>
+     <th>IP External</th>
+     <th>IP Local</th>
+     <th>Status</th>
+     <th>Hostname</th>
+   </tr>
+ </thead>
+ <tbody>
+    <tr>
+      <td>a4655762a87505f6fe81f0c300a1be66</td>
+      <td>81.23.10.193</td>
+      <td>10.3.80.10</td>
+      <td>active</td>
+      <td>rojer</td>
+    </tr>
+  </tbody>
+   </table>

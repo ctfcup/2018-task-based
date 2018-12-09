@@ -1,0 +1,10 @@
+task:
+  deploy_method: docker
+  category:
+    - web
+  description:
+      Просто забери свой флаг. Я даже подскажу - файл flag.txt.
+     http://tcp.tasks.ctfcup.ru:5006
+  points: 150
+  flag: CupCTF{byp455_15_50_345y}
+  title: Filtered

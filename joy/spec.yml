@@ -1,0 +1,10 @@
+task:
+  deploy_method: none
+  category:
+    - joy
+  description:
+    Ну что ты все ногами шаркаешь, смотри под ноги и не отвлекайся!
+  points: 100
+  flag: CupCTF{v3ry_c00l_j0y}
+  title: Шаг за шагом
+

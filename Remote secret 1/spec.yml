@@ -1,0 +1,9 @@
+task:
+  deploy_method: none
+  category:
+    - reverse
+  description:
+    Добро пожаловать, http://ctfcup18.reverseboom.ru. Вы можете авторизоваться с вашим командным почтой-паролем
+  points: 100
+  flag: CupCTF{bd58b098d11172d438f9e2be92423b4a}
+  title: Remote secret 1

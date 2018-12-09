@@ -1,0 +1,9 @@
+task:
+  deploy_method: docker
+  category:
+    - pwn
+  description:
+    Судя по всему важные функции доступны только привилегированному аккаунту, попробуйте получить доступ к нему! (tcp.tasks.ctfcup:5353)
+  points: 200
+  flag: CupCTF{d0_n0t_f0rg0t_4b0ut_f0rmat1ng}
+  title: Login panel - Permissions

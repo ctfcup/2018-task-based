@@ -1,0 +1,9 @@
+task:
+  deploy_method: docker
+  category:
+    - pwn
+  description:
+    Мы всё ещё не поняли, что отправляется с сервера, куда и от кого. Надо выяснить этот вопрос. Кажется они оставили бекдор для суперпользователя, только вот как он работает?
+  points: 400
+  flag: CupCTF{n1c3_b4ckd00r_m4n_s4lt3d}
+  title: Root backdoor

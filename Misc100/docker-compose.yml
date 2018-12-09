@@ -1,0 +1,13 @@
+version: '3'
+services:
+  misc100:
+    restart: always
+#    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+     - ./app:/opt/www
+    ports:
+     - "5009:1688"
+
